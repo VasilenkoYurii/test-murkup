@@ -1,0 +1,60 @@
+.omc-bs-style.omc-wrap.mvp-slidesidebarmenu {
+    width: auto;
+    overflow: visible;
+}
+
+.mvp-js-drawer-open section.side-menu-bg {
+    z-index: 900000;
+    position: absolute;
+}
+
+.mvp-js-drawer-open-left .slidemenu-show.default-navigation {
+    transform: translateX(280px);
+}
+
+.mvp-js-drawer-open-left .slidemenu-show {
+    transform: translateX(-280px);
+}
+
+.omc-bs-style.omc-wrap.slidemenu {
+    background: #333333;
+    right: -280px;
+    max-width: 280px;
+    min-width: 280px;
+    position: fixed;
+    top: 0;
+    z-index: 9999999;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0s, -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+
+.mvp-js-drawer-open .slidemenu {
+    display: block;
+}
+
+.mvp-js-drawer-open {
+    overflow: hidden;
+}
+
+.mvp-all-contents-wrap {
+    height: 100%;
+    /*position: fixed;*/
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.mvp-overlaybg {
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+    overflow: hidden;
+}
